@@ -4,6 +4,21 @@
 
 ---
 
+## 📋 Project Summary
+
+| Attribute | Details |
+|-----------|---------|
+| **Project Type** | Data Analytics |
+| **Status** | ✅ Completed |
+| **Level** | Beginner / Intermediate |
+| **Tools** | SQL, Tableau |
+| **Database** | MySQL |
+| **Dataset** | User Events Dataset |
+| **Focus** | Sales Funnel Analysis, Dashboard Development |
+| **Output** | Tableau Dashboard & Business Insights |
+
+---
+
 ## 📌 Business Problem
 
 This project was a simulated real-world e-commerce business scenario using user event data to analyze the customer journey through the sales funnel to better understand user behavior, identify drop-off points, and provide actionable insights to improve conversion rates, sales performance, and business returns.
