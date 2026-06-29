@@ -1,16 +1,16 @@
-# E-Commerce Sales Funnel Analysis
+# 🛒 E-Commerce Sales Funnel Analysis
 
 > Sales funnel analysis and dashboard exploring conversion rates, customer journey timing, revenue performance, and acquisition channel performance for an e-commerce business.
 
 ---
 
-## Business Problem
+## 📌 Business Problem
 
 This project was a simulated real-world e-commerce business scenario using user event data to analyze the customer journey through the sales funnel to better understand user behavior, identify drop-off points, and provide actionable insights to improve conversion rates, sales performance, and business returns.
 
 ---
 
-## Objectives
+## 🎯 Objectives
 
 This project provides analysis of business metrics, sales funnel performance, and conversion timing at each stage from initial website visits to completed purchases. It also compares conversion performance across traffic sources.
 
@@ -18,23 +18,31 @@ It provides the sales and marketing teams with clear visibility into their KPIs,
 
 ---
 
-## Dataset
+## 🔎 Dataset
 The dataset provided by Lore So What (YouTube channel)
 
 | Dataset      | Description       |
 | ------------ | ----------------- |
-| User Events | Short description |
+| User Events | User interactions capturing the end-to-end customer journey |
 
 ---
 
-## Tools & Technologies
+## 🛠️ Tools
 
 * SQL
+
+  **SQL Techniques Used**
+  
+  * **`CTEs`** and **`CASE WHEN`** to define funnel stages.
+  * **`COUNT (DISTINCT)`** to count users.
+  * Use date functions like **`DATE_SUB()`**, **`DATE()`**, and **`MAX()`** to filter the latest 30 days of activity, and **`TIMESTAMPDIFF()`** to calculate the average time users spend between funnel stages.
+  * Utilizes aggregate functions **`COUNT()`**, **`SUM()`**, **`AVG()`**  to calculate KPI, conversion metrics, and **`MIN()`** to capture the first timestamp at each funnel stage for conversion timing analysis.
+  
 * Tableau
 
 ---
 
-## Project Workflow
+## 🔄 Project Workflow
 
 1. Data Understanding
 2. Data Cleaning
@@ -45,7 +53,7 @@ The dataset provided by Lore So What (YouTube channel)
 
 ---
 
-## Dashboard / Analysis
+## 📊 Dashboard / Analysis
 
 Built a two-page dashboard to visualize funnel performance and key business metrics.
 
@@ -61,7 +69,7 @@ Built a two-page dashboard to visualize funnel performance and key business metr
 
 ---
 
-## Key Insights
+## 📈 Key Insights
 
 **My analysis proved the following:**
 
@@ -83,7 +91,7 @@ Built a two-page dashboard to visualize funnel performance and key business metr
 
 ---
 
-## Recommendations
+## 💼 Recommendations
 
 1. Website Optimization
 * **Improve Product Discovery and Evaluation Experience:** The **Page View to Add-to-Cart** shows both the largest drop-off point and the longest average time spent.  
@@ -106,10 +114,10 @@ Built a two-page dashboard to visualize funnel performance and key business metr
      
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
-project-name/
+e-commerce-sales-funnel-analysis/
 │
 ├── data/
 ├── sql script/
@@ -120,7 +128,7 @@ project-name/
 
 ---
 
-## Key Learnings
+## 💡 Key Learnings
 
 * SQL querying
 * Data Cleaning
@@ -131,7 +139,7 @@ This project taught me that SQL is only a tool for extracting and analyzing data
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
 * Add more data
 * Improve dashboard interactivity
