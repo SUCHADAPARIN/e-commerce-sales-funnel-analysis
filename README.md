@@ -9,8 +9,6 @@
 | Attribute | Details |
 |-----------|---------|
 | **Project Type** | Data Analytics |
-| **Status** | ✅ Completed |
-| **Level** | Beginner / Intermediate |
 | **Tools** | SQL, Tableau |
 | **Database** | MySQL |
 | **Dataset** | User Events Dataset |
