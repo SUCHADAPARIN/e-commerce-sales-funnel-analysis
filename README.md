@@ -119,10 +119,9 @@ Built a two-page dashboard to visualize funnel performance and key business metr
 ```text
 e-commerce-sales-funnel-analysis/
 │
-├── data/
-├── sql script/
+├── SQL script/
 ├── dashboard/
-├── images/
+├── dataset/
 └── README.md
 ```
 
