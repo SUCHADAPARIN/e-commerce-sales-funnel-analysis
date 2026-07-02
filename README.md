@@ -6,7 +6,7 @@
 
 ## 📋 Project Summary
 
-| Attribute | Details |
+| | Details |
 |-----------|---------|
 | **Project Type** | Data Analytics |
 | **Tools** | SQL, Tableau |
@@ -15,13 +15,10 @@
 | **Focus** | Sales Funnel Analysis, Dashboard Development |
 | **Output** | Tableau Dashboard & Business Insights |
 
----
-
 ## 📌 Business Problem
 
 This project was a simulated real-world e-commerce business scenario using user event data to analyze the customer journey through the sales funnel to better understand user behavior, identify drop-off points, and provide actionable insights to improve conversion rates, sales performance, and business returns.
 
----
 
 ## 🎯 Objectives
 
@@ -38,7 +35,6 @@ The dataset provided by Lore So What (YouTube channel)
 | ------------ | ----------------- |
 | User Events | User interactions capturing the end-to-end customer journey |
 
----
 
 ## 🛠️ Tools
 
@@ -53,7 +49,6 @@ The dataset provided by Lore So What (YouTube channel)
   
 * Tableau
 
----
 
 ## 🔄 Project Workflow
 
@@ -80,7 +75,6 @@ Built a two-page dashboard to visualize funnel performance and key business metr
 
 <div class='tableauPlaceholder' id='viz1782773075567' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17814571393870&#47;FunnelbyTrafficSource&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_17814571393870&#47;FunnelbyTrafficSource' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17814571393870&#47;FunnelbyTrafficSource&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='th-TH' /></object></div>                
 
----
 
 ## 📈 Key Insights
 
@@ -102,7 +96,6 @@ Built a two-page dashboard to visualize funnel performance and key business metr
 * **Email has the most effective conversion performance of 33.85%**, as email campaigns reach users with high purchase intent, reflected in its strong cart conversion rate of 63.03%. While Organic traffic has the most visitors, it converts at a lower rate than email.
 * **Social Media has the lowest conversion rate at 6.66%**, with a significant drop-off at the View-to-Cart stage. Most visitors come in and aren't interested in the product enough to add to cart.
 
----
 
 ## 💼 Recommendations
 
@@ -138,7 +131,6 @@ e-commerce-sales-funnel-analysis/
 └── README.md
 ```
 
----
 
 ## 💡 Key Learnings
 
@@ -149,7 +141,6 @@ e-commerce-sales-funnel-analysis/
 
 This project taught me that SQL is only a tool for extracting and analyzing data. The real value comes from transforming data into actionable business insights and recommendations.
 
----
 
 ## 🔮 Future Improvements
 
@@ -160,10 +151,10 @@ If I were to extend this project, I would include Customer Acquisition Cost (CAC
 
 My advice for doing a similar project is to focus on both technical skills (SQL and dashboard development) and business understanding, as meaningful insights come from combining the two.
 
----
+
 ## 🙏 Acknowledgment
 
 Special thanks to the creator of **Lore So What (YouTube)** for sharing these resources for educational and portfolio purposes.
 
 ### References
-Lore So What (YouTube channel): https://youtu.be/U-JlXWDqvco?si=AXzeUCWsxUb3NBXH
+**Lore So What** – [Watch me Do a Data Analyst Project in minutes with SQL (YouTube)](https://youtu.be/U-JlXWDqvco?si=AXzeUCWsxUb3NBXH)
