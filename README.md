@@ -1,12 +1,6 @@
 # 🛒 E-Commerce Sales Funnel Analysis
 
-> Sales funnel analysis and dashboard exploring conversion rates, customer journey timing, revenue performance, and acquisition channel performance for an e-commerce business.
-
-![Overview Dashboard](dashboard/Overview.png)
-
----
-
-## 📋 Project Summary
+Sales funnel analysis and dashboard exploring conversion rates, customer journey timing, revenue performance, and acquisition channel performance for an e-commerce business.
 
 | | Details |
 |-----------|---------|
@@ -16,6 +10,7 @@
 | **Dataset** | User Events Dataset |
 | **Focus** | Sales Funnel Analysis, Dashboard Development |
 | **Output** | Tableau Dashboard & Business Insights |
+
 
 ## 📌 Business Problem
 
@@ -28,7 +23,6 @@ This project provides analysis of business metrics, sales funnel performance, an
 
 It provides the sales and marketing teams with clear visibility into their KPIs, enabling them to identify conversion bottlenecks, evaluate marketing channel effectiveness, and uncover opportunities to improve revenue growth and customer acquisition strategies.
 
----
 
 ## 🔎 Dataset
 The dataset provided by Lore So What (YouTube channel)
@@ -38,31 +32,6 @@ The dataset provided by Lore So What (YouTube channel)
 | User Events | User interactions capturing the end-to-end customer journey |
 
 
-## 🛠️ Tools
-
-* SQL
-
-  **SQL Techniques Used**
-  
-  * **`CTEs`** and **`CASE WHEN`** to define funnel stages.
-  * **`COUNT (DISTINCT)`** to count users.
-  * Use date functions like **`DATE_SUB()`**, **`DATE()`**, and **`MAX()`** to filter the latest 30 days of activity, and **`TIMESTAMPDIFF()`** to calculate the average time users spend between funnel stages.
-  * Utilizes aggregate functions **`COUNT()`**, **`SUM()`**, **`AVG()`**  to calculate KPI, conversion metrics, and **`MIN()`** to capture the first timestamp at each funnel stage for conversion timing analysis.
-  
-* Tableau
-
-
-## 🔄 Project Workflow
-
-1. Data Understanding
-2. Data Cleaning
-3. Exploratory Data Analysis (EDA)
-4. Data Transformation
-5. Data Visualization
-6. Business Insights
-
----
-
 ## 📊 Dashboard
 
 Built a two-page dashboard to visualize funnel performance and key business metrics.
@@ -70,7 +39,7 @@ Built a two-page dashboard to visualize funnel performance and key business metr
 * Overview page: An overview of KPIs, conversion funnel performance, and average time between funnel stages.
 * Conversion Funnel by Traffic Source page: Sales funnel comparing conversion rates across traffic sources.
 
-[View Dashboard](https://public.tableau.com/views/Book1_17814571393870/Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[View Dashboard on Tableau Public](https://public.tableau.com/views/Book1_17814571393870/Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 <div class='tableauPlaceholder' id='viz1782773184310' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17814571393870&#47;Overview&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_17814571393870&#47;Overview' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17814571393870&#47;Overview&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='th-TH' /></object></div>                
 
@@ -119,7 +88,31 @@ Built a two-page dashboard to visualize funnel performance and key business metr
 * **Improve Conversion Rates:** Purchasing customers already spend a relatively high amount.
 
   **Action:** Convert more existing visitors into buyers by reducing drop-off at the View-to-Cart stage rather than focusing only on increasing customer spending.
-     
+
+
+## 🛠️ Tools
+
+* SQL
+
+  **SQL Techniques Used**
+  
+  * **`CTEs`** and **`CASE WHEN`** to define funnel stages.
+  * **`COUNT (DISTINCT)`** to count users.
+  * Use date functions like **`DATE_SUB()`**, **`DATE()`**, and **`MAX()`** to filter the latest 30 days of activity, and **`TIMESTAMPDIFF()`** to calculate the average time users spend between funnel stages.
+  * Utilizes aggregate functions **`COUNT()`**, **`SUM()`**, **`AVG()`**  to calculate KPI, conversion metrics, and **`MIN()`** to capture the first timestamp at each funnel stage for conversion timing analysis.
+  
+* Tableau
+
+
+## 🔄 Project Workflow
+
+1. Data Understanding
+2. Data Cleaning
+3. Exploratory Data Analysis (EDA)
+4. Data Transformation
+5. Data Visualization
+6. Business Insights
+   
 ---
 
 ## 📂 Project Structure
@@ -127,10 +120,22 @@ Built a two-page dashboard to visualize funnel performance and key business metr
 ```text
 e-commerce-sales-funnel-analysis/
 │
-├── SQL script/
-├── dashboard/
-├── dataset/
-└── README.md
+├── sql_scripts/                                # SQL analysis scripts (ordered by workflow)
+│   ├── 01_define_sales_funnel_stages.sql
+│   ├── 02_calculating_conversion_rates.sql
+│   ├── 03_funnel_by_traffic_source.sql
+│   ├── 04_time_to_conversion.sql
+│   └── 05_revenue_funnel_analysis.sql
+│
+├── dashboard/                                  # Dashboard visualization files
+│   ├── overview.png
+│   └── funnel_by_traffic_source.png
+│
+├── dataset/                                    # Raw and processed data files
+│   └── user_events.csv
+│
+└── README.md                                   # Project documentation
+
 ```
 
 
