@@ -2,6 +2,8 @@
 
 > Sales funnel analysis and dashboard exploring conversion rates, customer journey timing, revenue performance, and acquisition channel performance for an e-commerce business.
 
+![Overview Dashboard](dashboard/Overview.png)
+
 ---
 
 ## 📋 Project Summary
@@ -61,7 +63,7 @@ The dataset provided by Lore So What (YouTube channel)
 
 ---
 
-## 📊 Dashboard / Analysis
+## 📊 Dashboard
 
 Built a two-page dashboard to visualize funnel performance and key business metrics.
 
@@ -113,7 +115,7 @@ Built a two-page dashboard to visualize funnel performance and key business metr
 
   **Action:** Review audience targeting, content relevance, and landing page experience to improve traffic quality and increase conversion performance.
      
-3. **Revenue Growth Strategy**
+3. Revenue Growth Strategy
 * **Improve Conversion Rates:** Purchasing customers already spend a relatively high amount.
 
   **Action:** Convert more existing visitors into buyers by reducing drop-off at the View-to-Cart stage rather than focusing only on increasing customer spending.
